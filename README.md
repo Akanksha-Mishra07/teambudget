@@ -4,7 +4,7 @@ A full-stack team expense tracking and approval platform. TeamBudget gives every
 
 ## Live demo
 
-[Add your Vercel link here after deployment]
+https://teambudget-new.vercel.app/
 
 ## Problem it solves
 
@@ -38,14 +38,23 @@ Small teams often track expenses in shared spreadsheets — no approval trail, n
 ## Project structure
 
 app/ Routes (App Router)
+
 dashboard/ Team dashboard with budget progress
+
 expenses/ List, add, edit, detail, approvals
+
 team/ Team settings and member management
+
 analytics/ Spend analytics and CSV export
+
 login/ signup/ Auth pages
+
 components/ Reusable UI (Navbar, Footer, forms, cards)
+
 context/ AuthContext, TeamContext
+
 lib/ Supabase client
+
 types/ Shared TypeScript types
 
 
@@ -57,6 +66,7 @@ npm run dev
 ```
 
 Requires a `.env.local` file in the project root with:
+
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
